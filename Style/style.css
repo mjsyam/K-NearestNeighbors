@@ -1,0 +1,101 @@
+form{  
+    font:100% verdana,arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+    max-width: 600px;
+    width: 560px; 
+}
+
+form fieldset { 
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;        
+    margin: 0;
+}
+
+form fieldset legend {
+    font-size:1.1em; 
+}
+
+form label { 
+    display: block;  
+    float: left; 
+    width: 150px; 
+    padding: 0; 
+    margin: 5px 0 0;
+    text-align: right; 
+}
+
+form fieldset label:first-letter { 
+    text-decoration:underline;   
+}
+
+form input, form textarea {
+
+    width:auto;     
+    margin:5px 0 0 10px;
+}
+
+form input#reset {
+    margin-left:0px;
+}
+
+textarea { overflow: auto; }
+
+form small {
+    display: block;
+    margin: 0 0 5px 160px; 
+    padding: 1px 3px;
+    font-size: 88%;
+}
+
+form .required{font-weight:bold;}
+
+form br {
+    clear:left; 
+}
+
+table#tabelData{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Tahoma;
+    font-size: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table#tabelData th{
+    color: #FFFFFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #969BA5;
+    border-collapse: collapse;
+    background-color: #265180;
+
+}
+table#tabelData td{
+    border: 1px solid #FFE222;
+/*    background: #FFF8CC;*/
+    text-align: center;
+    padding: 0.5em;
+    vertical-align: top;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #969BA5;
+    border-collapse: collapse;
+}
+fieldset{
+    border: 1px solid #FFE222;
+    background: #FFF8CC;
+    width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+}

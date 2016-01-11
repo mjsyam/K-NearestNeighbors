@@ -1,0 +1,34 @@
+/* CSS Document */
+.tombol{
+    height:40px;
+    margin-left: 500px;
+}
+.tombol li{
+    margin:0;
+    padding:0;
+    display:inline;
+    list-style-type:none;
+}
+.tombol a:link, 
+.tombol a:visited{
+    float:left;
+    background:#EBF3FB;
+    font-size:12px;
+    font-weight:bold;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    line-height:14px;
+    padding:5px 10px 5px 10px;
+    margin-right:4px;
+    border:1px solid #AACCEE ;
+    text-decoration:none;
+    color:#000;
+}
+.tombol a:link.active, #tombol a.visited.active{
+    border-bottom:1px solid #AACCEE ;
+    background:#fff;
+    color:#000;
+}
+.tombol a:hover{
+    background:#f3f3f3;
+}
+
